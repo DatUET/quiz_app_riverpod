@@ -12,6 +12,7 @@ final dioProvider = Provider<Dio>((ref) => Dio());
 final quizRepositoryProvider =
     Provider<QuizRepository>((ref) => QuizRepository((ref.read)));
 
+
 class QuizRepository extends BaseQuizRepository {
   final Reader _read;
 
